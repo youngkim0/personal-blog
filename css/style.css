@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Newsreader:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap");
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+body {
+  font-size: 62.5%;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: #00000c;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+p {
+  font-weight: 700;
+}
+
+@media (min-width: 1140px) {
+  .container {
+    width: 60vw;
+    margin: auto;
+  }
+}
+
+/* Blog post */
+.blog__header {
+  text-align: center;
+}
+.blog__header p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.blog__post img {
+  width: 100%;
+}
