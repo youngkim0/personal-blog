@@ -1,5 +1,6 @@
 /* Footer area */
 .footer__area {
+  margin-top: 2rem;
   padding: 2rem 0;
   background: lightslategray;
   display: flex;

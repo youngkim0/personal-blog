@@ -39,10 +39,71 @@
     <main class="blog__post container">
         <section class="blog__header">
             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quidem fuga? Blanditiis ut qui est!</h1>
-            <p>by Young Kim | Updated yesterday</p>
+            <section class="blog__author">
+                <img class="blog__author__pic" src="/images/writer.png" alt="Picture of the author">
+                <p class="blog__author__name">by Young Kim </p>
+                <div class="blog__author__bio"> 
+                    <ul>
+                        <li>Works at personalblog.example</li>
+                        <li>Lead-writer and a traveler</li>
+                        <li>Loves to travel around the world</li>
+                    </ul>
+                </div>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><img src="/images/036-facebook.png" alt="Logo of Facebook"></a>
+                    <a href="https://twitter.com"><img src="/images/008-twitter.png" alt="Logo of Twitter"></a>
+                    <a href="https://linkin.com"><img src="/images/027-linkedin.png" alt="Logo of LinkedIn"></a>
+                </div>
+            </section>
+
         </section>
         <img src="/images/belgium.jpg" alt="Picture of Belgium">
+        <section class="blog__content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime totam labore tempora debitis dicta assumenda repellat quia minima? Pariatur, fuga inventore? Pariatur consequatur magni obcaecati in quas molestiae sed aliquam, autem dolorum libero esse sapiente, eaque odit asperiores quisquam maxime omnis enim facilis, dignissimos natus. Omnis repellat sint necessitatibus magni, inventore exercitationem ab quam soluta, vero tempore, doloremque vel odit iusto! Iste porro quas, maxime ipsa quod quam aperiam exercitationem consectetur iusto! Recusandae minima modi a veniam iusto enim officiis impedit vitae quidem ducimus ratione fuga nisi earum, amet cupiditate quas deleniti? Dolor, quibusdam adipisci placeat possimus molestias laboriosam unde!</p>
+        </section>
+
+        <!-- Recent Posts -->
+        <h2 class="blog__recentPosts">Recent Posts</h2>
+        <section class="posts">
+            <article class="post">
+                <img class="post__image" src="/images/forest.jpg" alt="Picture of a forest">
+                <div class="post__text">
+                    <h3 class="post__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, cumque animi quibusdam impedit nesciunt odio?</h3>
+                    <div class="post__view">
+                        <p class="post__postInfo">by Jeff Rain</p>
+                        <a href="/pages/post.html"><button class="post__button">View</button></a>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <img class="post__image" src="/images/gondola.jpg" alt="Picture of a gondola">
+                <div class="post__text">
+                    <h3 class="post__title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia non, vitae pariatur ducimus error dolorum.</h3>
+                    <div class="post__view">
+                        <p class="post__postInfo">by Very Good</p>
+                        <a href="/pages/post.html"><button class="post__button">View</button></a>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <img class="post__image" src="/images/road.jpg" alt="Picture of a road">
+                <div class="post__text">
+                    <h3 class="post__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, provident? Quod, magni. Ipsa, totam neque!</h3>
+                    <div class="post__view">
+                        <p class="post__postInfo">by Hello World</p>
+                        <a href="/pages/post.html"><button class="post__button">View</button></a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
     </main>
-    
+        <footer class="footer__area">
+        <p>Subscribe to our mailing list!</p>
+        <div class="email__submit">
+            <input type="email" name="subscribe" id="sub">
+            <button class="footer__button" type="submit">Submit</button>
+        </div>
+    </footer>
 </body>
 </html>

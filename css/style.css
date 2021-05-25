@@ -2,6 +2,7 @@
 @import url("header.css");
 @import url("main.css");
 @import url("footer.css");
+@import url("blog.css");
 
 body {
   font-size: 62.5%;
@@ -31,16 +32,4 @@ p {
     width: 60vw;
     margin: auto;
   }
-}
-
-/* Blog post */
-.blog__header {
-  text-align: center;
-}
-.blog__header p {
-  margin-top: 1rem;
-  font-size: 1rem;
-}
-.blog__post img {
-  width: 100%;
 }
