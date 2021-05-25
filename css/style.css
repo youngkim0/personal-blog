@@ -26,7 +26,9 @@ button {
 p {
   font-weight: 700;
 }
-
+figure {
+  margin: 0;
+}
 @media (min-width: 1140px) {
   .container {
     width: 60vw;
